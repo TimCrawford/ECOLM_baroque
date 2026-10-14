@@ -9,6 +9,6 @@ b) The Weiss files downloaded from IMSLP include the greater part of the music f
 
 All the files are saved as MEI (in folders called 'mei') and TabCode (in folders called 'tc').
 
-In most cases, the filenames give some basic identifying metadata. This can mostly be checked against the incipits in slweiss.de by running the script './find_tc.sh file.tc n_errors ', which looks up a query built from the incipit of  <i>file.tc</i> in TabCode (NB filename extension '.tc') in an index of the tablature incipits from slweiss.de with <i>n_errors</i> non-matching tablature symbols (default = 3). [Not yet implemented or tested in GitHub! Various dependencies currently lacking.]
+In most cases, the filenames give some basic identifying metadata. This can mostly be checked against the incipits in slweiss.de by running the script './find_tc.sh file.tc n_errors ', which looks up a query built from the incipit of  <i>file.tc</i> in TabCode (NB filename extension must be '.tc') in an index of the tablature incipits from slweiss.de with <i>n_errors</i> non-matching tablature symbols (default = 3). <b>[Not yet implemented or tested in GitHub! Various dependencies are currently lacking.]</b>
 
 [Due to the complexity of the IMSLP repository, it was necessary first to export the MuseScore files from IMSLP's directory hierarchy (IMSLP_scores); for convenience they have been copied to a simpler hierarchy in a new directory (IMSLP).]
