@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="6.0-dev">
+   <meiHead xml:id="m1f8m93i">
+      <fileDesc xml:id="f10yzo2g">
+         <titleStmt xml:id="tdmnh5y">
+            <title>Menuet</title>
+            <respStmt />
+         </titleStmt>
+         <pubStmt xml:id="px7oo0z">
+            <date isodate="2026-09-17" type="encoding-date">2026-09-17</date>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="e8p4ca8">
+         <appInfo xml:id="ay3gfxu">
+            <application xml:id="aek3ybm" isodate="2026-09-17T15:34:03" version="6.3.0-dev-2849913">
+               <name xml:id="n1apk847">Verovio</name>
+               <p xml:id="p1tn1aze">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="naa5pa6">
+            <score xml:id="o12r6m7u">
+               <scoreDef xml:id="p1j3vy3g" midi.bpm="110">
+                  <pgHead xml:id="urti9es" func="first">
+                     <rend xml:id="s14zt38u" halign="center" valign="top">Menuet</rend>
+                  </pgHead>
+                  <staffGrp xml:id="v1ehpej4">
+                     <staffGrp xml:id="P1" bar.thru="true">
+                        <grpSym xml:id="st4pau9" symbol="brace" />
+                        <instrDef xml:id="w1oljpn4" midi.channel="0" midi.instrnum="0" midi.volume="78%" />
+                        <staffDef xml:id="yqzvni6" n="1" lines="5" ppq="4">
+                           <clef xml:id="fqxh1ps" shape="G" line="2" />
+                           <keySig xml:id="giytn2t" sig="1f" />
+                           <meterSig xml:id="h1mwidi9" count="3" unit="4" />
+                        </staffDef>
+                        <staffDef xml:id="iola4dr" n="2" lines="5" ppq="4">
+                           <clef xml:id="p1ax47f7" shape="F" line="4" />
+                           <keySig xml:id="qvqzgff" sig="1f" />
+                           <meterSig xml:id="r4xaq2c" count="3" unit="4" />
+                        </staffDef>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="qht66wv">
+                  <expansion plist="#f94ptsh #f94ptsh #g4lht3r #g4lht3r" xml:id="h17pwr62" />
+                  <pb xml:id="r3aztr4" />
+                  <section xml:id="f94ptsh">
+                     <measure xml:id="t1vpxxf9" n="1">
+                        <staff xml:id="ck57nxs" n="1">
+                           <layer xml:id="ej5d3d6" n="1">
+                              <chord xml:id="g1f5qshh" dur.ppq="4" dur="4" stem.dir="down">
+                                 <note xml:id="f1giqaqa" oct="4" pname="a" />
+                                 <note xml:id="hz85qm4" oct="5" pname="c" />
+                              </chord>
+                              <note xml:id="i1dxuq9" dur.ppq="4" dur="4" oct="5" pname="c" stem.dir="down" />
+                              <note xml:id="j493qsl" dur.ppq="4" dur="4" oct="5" pname="d" stem.dir="down" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="d1n3ypo0" n="2">
+                           <layer xml:id="k1nqwkx8" n="5">
+                              <note xml:id="l6zdi60" dots="1" dur.ppq="12" dur="2" oct="2" pname="f" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="m1ly0pqq" n="2">
+                        <staff xml:id="v1bnou5i" n="1">
+                           <layer xml:id="x5usisd" n="1">
+                              <note xml:id="y1wm4bt6" dur.ppq="8" dur="2" oct="4" pname="e" stem.dir="up" />
+                              <chord xml:id="adkzp6z" dur.ppq="4" dur="4" stem.dir="up">
+                                 <note xml:id="z1w3583w" oct="4" pname="e" />
+                                 <note xml:id="b12ylh1v" oct="4" pname="f" />
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="w1uceaqm" n="2">
+                           <layer xml:id="c18v6h59" n="5">
+                              <note xml:id="d2dh714" dur.ppq="8" dur="2" oct="2" pname="g" stem.dir="up" />
+                              <note xml:id="ebj1s1w" dur.ppq="4" dur="4" oct="2" pname="a" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="f1mhb3po" n="3">
+                        <staff xml:id="ofjy22k" n="1">
+                           <layer xml:id="q1qgtdjj" n="1">
+                              <beam xml:id="r1huimq">
+                                 <note xml:id="s6nndul" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="t1geurud" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="uzo2nka">
+                                 <note xml:id="vzkqncm" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="wigzjzn" accid.ges="f" />
+                                 </note>
+                                 <note xml:id="xqcadv0" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="ybn41w1">
+                                 <note xml:id="zgikwfp" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="a10adtid" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="pjtfhva" n="2">
+                           <layer xml:id="b6gy07a" n="5">
+                              <note xml:id="c1xqlj7o" dur.ppq="8" dur="2" oct="2" pname="e" stem.dir="up" />
+                              <note xml:id="d17cwsme" dur.ppq="4" dur="4" oct="2" pname="f" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="edcof1n" n="4">
+                        <staff xml:id="n9yd6t1" n="1">
+                           <layer xml:id="p1mhlc6l" n="1">
+                              <beam xml:id="q9kz2vj">
+                                 <note xml:id="r7sr5x1" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="s3c3zyf" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="t11fik53">
+                                 <note xml:id="ug8ueay" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="v1pgpvm4" dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="w2af2jl" dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="x1ubtazr" accid.ges="f" />
+                                 </note>
+                              </beam>
+                              <note xml:id="yp374ja" dur.ppq="4" dur="4" oct="4" pname="a" stem.dir="up" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="o7fpw6n" n="2">
+                           <layer xml:id="z1yw0n6q" n="5">
+                              <note xml:id="ad9cf6p" dur.ppq="8" dur="2" oct="2" pname="e" stem.dir="up" />
+                              <note xml:id="bumoyux" dur.ppq="4" dur="4" oct="2" pname="f" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="c1qxvcn6" n="5">
+                        <staff xml:id="ln701qb" n="1">
+                           <layer xml:id="n1r5fjmx" n="1">
+                              <beam xml:id="o1i42dzt">
+                                 <note xml:id="p83v1oh" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="qa2f85q" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="rdill7g">
+                                 <note xml:id="s1b268oc" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="t1kiwoz0" accid.ges="f" />
+                                 </note>
+                                 <note xml:id="up7ise4" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="vqluuy9">
+                                 <note xml:id="w1t40ki0" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="xabulw0" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="m5lshg4" n="2">
+                           <layer xml:id="yj38adt" n="5">
+                              <note xml:id="zoc8044" dur.ppq="8" dur="2" oct="2" pname="e" stem.dir="up" />
+                              <note xml:id="a1vykjdw" dur.ppq="4" dur="4" oct="2" pname="f" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="byduj29" n="6">
+                        <staff xml:id="k1m1dfcg" n="1">
+                           <layer xml:id="m1iadxfw" n="1">
+                              <beam xml:id="n18z4ras">
+                                 <note xml:id="omje3zh" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="plz5wxa" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="qfhtdis">
+                                 <note xml:id="rvz6sx7" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                                 <note xml:id="so8yxsu" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="t643ep8">
+                                 <note xml:id="u1l1orqq" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" />
+                                 <note xml:id="vpwl54o" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="l2xn6i0" n="2">
+                           <layer xml:id="w1vazolb" n="5">
+                              <note xml:id="x1skckh1" dots="1" dur.ppq="12" dur="2" oct="2" pname="c" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="yj262re" n="7">
+                        <staff xml:id="h1c9wz22" n="1">
+                           <layer xml:id="j1p6dcri" n="1">
+                              <chord xml:id="l1ncdv7q" dur.ppq="4" dur="4" stem.dir="up">
+                                 <note xml:id="ky93al3" oct="4" pname="c" />
+                                 <note xml:id="mgt5md" oct="4" pname="a" />
+                              </chord>
+                              <chord xml:id="o11641m3" dots="1" dur.ppq="6" dur="4" stem.dir="up">
+                                 <note xml:id="nuu5686" oct="4" pname="d" />
+                                 <note xml:id="pqkjgm4" oct="4" pname="f" />
+                              </chord>
+                              <beam xml:id="q13xr0tr">
+                                 <note xml:id="r1ydf8j3" dur.ppq="1" dur="16" oct="4" pname="e" stem.dir="up" />
+                                 <note xml:id="ssv3x4n" dur.ppq="1" dur="16" oct="4" pname="f" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="ikqbza6" n="2">
+                           <layer xml:id="tzsinnr" n="5">
+                              <note xml:id="uytr02e" dots="1" dur.ppq="12" dur="2" oct="2" pname="f" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="vo8gewu" n="8">
+                        <staff xml:id="efthw7w" n="1">
+                           <layer xml:id="gmhl5aq" n="1">
+                              <note xml:id="huhpkhk" dur.ppq="4" dur="4" oct="4" pname="g" stem.dir="up" />
+                              <beam xml:id="iaa2fx">
+                                 <note xml:id="j60bclh" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                                 <note xml:id="krf73ap" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="l1e254y6">
+                                 <note xml:id="m1065nwe" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" />
+                                 <note xml:id="n4jeo8h" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="f1qg97lh" n="2">
+                           <layer xml:id="o1uggq1l" n="5">
+                              <note xml:id="pdsz26e" dots="1" dur.ppq="12" dur="2" oct="2" pname="e" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="q4xhsw5" n="9">
+                        <staff xml:id="z18m811l" n="1">
+                           <layer xml:id="bsk5bz0" n="1">
+                              <chord xml:id="dosw0ys" dur.ppq="4" dur="4" stem.dir="up">
+                                 <note xml:id="c1cpq9nr" oct="4" pname="e" />
+                                 <note xml:id="e1sdv7rj" oct="4" pname="f" />
+                              </chord>
+                              <chord xml:id="h1wocy32" dots="1" dur.ppq="6" dur="4" stem.dir="up">
+                                 <note xml:id="f1vk3ve3" oct="3" pname="b">
+                                    <accid xml:id="gg1iew3" accid="n" />
+                                 </note>
+                                 <note xml:id="i4bp0ws" oct="4" pname="d" />
+                              </chord>
+                              <beam xml:id="j61hvkp">
+                                 <note xml:id="kgijsnx" dur.ppq="1" dur="16" oct="4" pname="c" stem.dir="up" />
+                                 <note xml:id="l1dbvlsp" dur.ppq="1" dur="16" oct="4" pname="d" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="a1bl7kw" n="2">
+                           <layer xml:id="my5uekt" n="5">
+                              <note xml:id="nc3js56" dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" />
+                              <note xml:id="o16v5o97" dur.ppq="8" dur="2" oct="2" pname="g" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="p12tza8a" n="10">
+                        <staff xml:id="y146rk33" n="1">
+                           <layer xml:id="a1wixj5e" n="1">
+                              <beam xml:id="b1kaopgn">
+                                 <note xml:id="c1smaglt" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                                 <note xml:id="dks3ega" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="e14om6aw">
+                                 <note xml:id="f2celvn" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                                 <note xml:id="g180uf5i" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="h1wht4it">
+                                 <note xml:id="i1vy516i" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="j1no0tvk" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="zh5xowg" n="2">
+                           <layer xml:id="k21u4o" n="5">
+                              <note xml:id="l5fr69v" dur.ppq="4" dur="4" oct="2" pname="c" stem.dir="up" />
+                              <note xml:id="m1pxwok1" dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" />
+                              <note xml:id="n1vpxxa0" dur.ppq="4" dur="4" oct="2" pname="e" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <sb xml:id="z3ph89t" />
+                     <measure xml:id="ouprbr9" n="11">
+                        <staff xml:id="xcxuc7" n="1">
+                           <layer xml:id="a1r9w6dd" n="1">
+                              <beam xml:id="bk8vdnl">
+                                 <note xml:id="c178egmx" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="d1ir01y1" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="e1jqkija">
+                                 <note xml:id="fosuobf" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="g1m12cjh" accid="n" />
+                                 </note>
+                                 <note xml:id="h1wthrdd" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="i9icwiy">
+                                 <note xml:id="j1jgsnjg" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                                 <note xml:id="kc78o25" dur.ppq="2" dur="8" oct="5" pname="c" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="ymjmc0b" n="2">
+                           <layer xml:id="l1czl0nm" n="5">
+                              <note xml:id="mvkghbh" dur.ppq="4" dur="4" oct="2" pname="f" stem.dir="up" />
+                              <note xml:id="ns889jq" dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" />
+                              <note xml:id="otcjxwr" dur.ppq="4" dur="4" oct="2" pname="c" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="p1eieq44" n="12">
+                        <staff xml:id="ycshcgj" n="1">
+                           <layer xml:id="abqjskj" n="1">
+                              <note xml:id="b1ovt5nf" dur.ppq="4" dur="4" oct="4" pname="b" stem.dir="down">
+                                 <accid xml:id="c13mq7os" accid="n" />
+                              </note>
+                              <beam xml:id="d1jtees2">
+                                 <note xml:id="ef12huc" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="fwxubqe" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="gftu9ud" accid.ges="n" />
+                                 </note>
+                              </beam>
+                              <note xml:id="h1o3atup" dur.ppq="4" dur="4" oct="4" pname="g" stem.dir="up" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="z14slezj" n="2">
+                           <layer xml:id="i1rtieu" n="5">
+                              <note xml:id="jndzy4c" dots="1" dur.ppq="12" dur="2" oct="2" pname="g" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="k1v58b9q" n="13">
+                        <staff xml:id="t1biyu7w" n="1">
+                           <layer xml:id="v1mksi8t" n="1">
+                              <note xml:id="w1lb5zpv" dur.ppq="4" dur="4" oct="5" pname="d" stem.dir="down" />
+                              <note xml:id="x1be3xlh" dots="1" dur.ppq="6" dur="4" oct="4" pname="f" stem.dir="up" />
+                              <note xml:id="ysht5c5" dur.ppq="2" dur="8" oct="5" pname="d" stem.dir="down" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="uiytpal" n="2">
+                           <layer xml:id="z1ikpvk0" n="5">
+                              <mRest xml:id="akp86r9" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="b5kgy42" n="14">
+                        <staff xml:id="kqia04" n="1">
+                           <layer xml:id="mupr1xa" n="1">
+                              <note xml:id="n1t0fafz" dur.ppq="4" dur="4" oct="5" pname="d" stem.dir="down" />
+                              <note xml:id="o1jmlle5" dots="1" dur.ppq="6" dur="4" oct="4" pname="e" stem.dir="up" />
+                              <note xml:id="paxq23d" dur.ppq="2" dur="8" oct="5" pname="d" stem.dir="down" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="lprbnmr" n="2">
+                           <layer xml:id="q8cx4gc" n="5">
+                              <mRest xml:id="rj4x5fx" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="s1vnzcc2" n="15">
+                        <staff xml:id="bspu52g" n="1">
+                           <layer xml:id="d10jhway" n="1">
+                              <beam xml:id="e1hdlf5j">
+                                 <note xml:id="f1t7p4bd" dur.ppq="2" dur="8" oct="5" pname="c" stem.dir="up" />
+                                 <note xml:id="g1asnmsu" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="h1nmo52j">
+                                 <note xml:id="iydct2n" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                                 <note xml:id="jazvo40" dur.ppq="2" dur="8" oct="5" pname="d" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="koyxfps">
+                                 <note xml:id="l91zpjj" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" />
+                                 <note xml:id="mlf3fo8" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="ndk1e2x" accid="n" />
+                                 </note>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="c1il28cl" n="2">
+                           <layer xml:id="o1pms7td" n="5">
+                              <mRest xml:id="p2lcaek" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="qx0r75c" right="rptend" n="16">
+                        <staff xml:id="z12r3cux" n="1">
+                           <layer xml:id="b1x5c9as" n="1">
+                              <chord xml:id="d6wznyh" dots="1" dur.ppq="12" dur="2" stem.dir="up">
+                                 <note xml:id="cajm9b1" oct="4" pname="c" />
+                                 <note xml:id="ec1edzx" oct="4" pname="e" />
+                                 <note xml:id="f1wtlbdn" oct="4" pname="b">
+                                    <accid xml:id="g15680cn" accid="n" />
+                                 </note>
+                                 <note xml:id="hx3h5lw" oct="5" pname="c" />
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="a10oes4k" n="2">
+                           <layer xml:id="i1oe4eyz" n="5">
+                              <rest xml:id="j1gacm6m" dur.ppq="8" dur="2" />
+                              <note xml:id="k10dua7m" dur.ppq="4" dur="4" oct="2" pname="c" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                  </section>
+                  <sb xml:id="w1rqzjlg" />
+                  <section xml:id="g4lht3r">
+                     <measure xml:id="l283o6h" left="rptstart" n="17">
+                        <staff xml:id="uv07cku" n="1">
+                           <layer xml:id="x1youwaj" n="1">
+                              <chord xml:id="zp5ks8i" dur.ppq="4" dur="4" stem.dir="up">
+                                 <note xml:id="yntfwiu" oct="4" pname="e" />
+                                 <note xml:id="a1sxousl" oct="4" pname="g" />
+                              </chord>
+                              <note xml:id="bgsfmz1" dur.ppq="4" dur="4" oct="4" pname="g" stem.dir="up" />
+                              <note xml:id="c109pl2n" dur.ppq="4" dur="4" oct="4" pname="a" stem.dir="up" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="vvfomaz" n="2">
+                           <layer xml:id="dc2oft2" n="5">
+                              <note xml:id="e133mzo9" dots="1" dur.ppq="12" dur="2" oct="2" pname="c" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="f1qrjdgi" n="18">
+                        <staff xml:id="o1vezkou" n="1">
+                           <layer xml:id="q1eqvyw3" n="1">
+                              <note xml:id="r1qmwwvb" dur.ppq="8" dur="2" oct="3" pname="b" stem.dir="up">
+                                 <accid xml:id="s1sla02z" accid="n" />
+                              </note>
+                              <note xml:id="tei8mjc" dur.ppq="4" dur="4" oct="4" pname="c" stem.dir="up" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="ptzb7dp" n="2">
+                           <layer xml:id="u1113082" n="5">
+                              <chord xml:id="wo30ney" dur.ppq="8" dur="2" stem.dir="up">
+                                 <note xml:id="v1fe6tc3" oct="2" pname="d" />
+                                 <note xml:id="x1eo2nc8" oct="3" pname="f" />
+                              </chord>
+                              <chord xml:id="z19bloya" dur.ppq="4" dur="4" stem.dir="up">
+                                 <note xml:id="y1f0jsv5" oct="2" pname="e" />
+                                 <note xml:id="a1ehflfu" oct="3" pname="g" />
+                              </chord>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="blnx889" n="19">
+                        <staff xml:id="k1eet1au" n="1">
+                           <layer xml:id="mf8d9pm" n="1">
+                              <chord xml:id="o91foqo" dur.ppq="4" dur="4" stem.dir="up">
+                                 <note xml:id="nwdvi6r" oct="4" pname="e" />
+                                 <note xml:id="p5mv4fn" oct="4" pname="f" />
+                              </chord>
+                              <beam xml:id="q1xw5hb4">
+                                 <note xml:id="ruimh87" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                                 <note xml:id="srj57s5" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="twsok47">
+                                 <chord xml:id="v1vtz0jx" dur.ppq="2" dur="8" stem.dir="up">
+                                    <note xml:id="u16e81r4" oct="4" pname="e" />
+                                    <note xml:id="whjm1i8" oct="4" pname="f" />
+                                 </chord>
+                                 <note xml:id="x1bvcilu" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="lq030b1" n="2">
+                           <layer xml:id="y1kz5zd" n="5">
+                              <note xml:id="z1d26ct9" dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" />
+                              <note xml:id="akwir1p" dur.ppq="4" dur="4" oct="2" pname="b" stem.dir="up">
+                                 <accid xml:id="b1g045z5" accid="n" />
+                              </note>
+                              <note xml:id="cfqmrrk" dur.ppq="4" dur="4" oct="2" pname="g" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="dng7f3x" n="20">
+                        <staff xml:id="mggnlpc" n="1">
+                           <layer xml:id="o6dsoei" n="1">
+                              <note xml:id="pzazo2j" dur.ppq="4" dur="4" oct="4" pname="e" stem.dir="up" />
+                              <beam xml:id="q1i5w447">
+                                 <note xml:id="rrbb92j" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" />
+                                 <note xml:id="s9hq4ty" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                              </beam>
+                              <note xml:id="tkuz5cx" dur.ppq="4" dur="4" oct="4" pname="c" stem.dir="up" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="n12jpwl6" n="2">
+                           <layer xml:id="u1vuljqx" n="5">
+                              <note xml:id="vjlds86" dots="1" dur.ppq="12" dur="2" oct="2" pname="c" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="w9dtyf" n="21">
+                        <staff xml:id="f1120g9q" n="1">
+                           <layer xml:id="h19csfze" n="1">
+                              <chord xml:id="jtq2lfh" dur.ppq="4" dur="4" stem.dir="up">
+                                 <note xml:id="i1pvnct6" oct="4" pname="c" />
+                                 <note xml:id="k1cm21ym" oct="4" pname="f" />
+                              </chord>
+                              <note xml:id="l1dgnp2e" dur.ppq="8" dur="2" oct="4" pname="a" stem.dir="up" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="g13btamx" n="2">
+                           <layer xml:id="m1hrus6g" n="5">
+                              <note xml:id="nzt95bq" dur.ppq="8" dur="2" oct="2" pname="a" stem.dir="up" />
+                              <note xml:id="ocz4cgg" dur.ppq="4" dur="4" oct="1" pname="a" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="p1aqcozt" n="22">
+                        <staff xml:id="y6cpxc1" n="1">
+                           <layer xml:id="a1wq9t3s" n="1">
+                              <beam xml:id="b3mu631">
+                                 <chord xml:id="d1zf6f8" dur.ppq="2" dur="8" stem.dir="up">
+                                    <note xml:id="chui7y9" oct="4" pname="d" />
+                                    <note xml:id="e1ckoqb9" oct="4" pname="a" />
+                                 </chord>
+                                 <note xml:id="fwl0n7c" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="ggb7kxm">
+                                 <note xml:id="hptv2k0" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                                 <note xml:id="i1mg7l6z" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="jj66ye">
+                                 <note xml:id="k11ak6gi" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" />
+                                 <note xml:id="lxiatcb" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up">
+                                    <accid xml:id="m1uageoy" accid="s" />
+                                 </note>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="zr299dm" n="2">
+                           <layer xml:id="nwqfxga" n="5">
+                              <note xml:id="o1okofsi" dots="1" dur.ppq="12" dur="2" oct="1" pname="b" stem.dir="up">
+                                 <accid xml:id="p1isk7d6" accid.ges="f" />
+                              </note>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="qsowjla" n="23">
+                        <staff xml:id="z1196kt6" n="1">
+                           <layer xml:id="bxx85wv" n="1">
+                              <chord xml:id="e1mppspw" dur.ppq="4" dur="4" stem.dir="up">
+                                 <note xml:id="c1f739pd" oct="4" pname="c">
+                                    <accid xml:id="d19ihien" accid="s" />
+                                 </note>
+                                 <note xml:id="fbb6iz8" oct="4" pname="d" />
+                              </chord>
+                              <note xml:id="g1urs7ny" dur.ppq="8" dur="2" oct="4" pname="g" stem.dir="up" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="a1jw6509" n="2">
+                           <layer xml:id="h1gsf8up" n="5">
+                              <note xml:id="i3z3k8c" dur.ppq="8" dur="2" oct="2" pname="b" stem.dir="up">
+                                 <accid xml:id="j1epn3yz" accid.ges="f" />
+                              </note>
+                              <note xml:id="ke57zw2" dur.ppq="4" dur="4" oct="2" pname="g" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="lea0cf2" n="24">
+                        <staff xml:id="u16qw146" n="1">
+                           <layer xml:id="w1g5ir5w" n="1">
+                              <beam xml:id="xjy183c">
+                                 <note xml:id="y17ujof9" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="zclv39o" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="aqzjqqh">
+                                 <note xml:id="b1jcwfxa" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                                 <note xml:id="ckucbgb" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="d1s9w17c">
+                                 <note xml:id="eupjlb8" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up">
+                                    <accid xml:id="fkqy6ng" accid="s" />
+                                 </note>
+                                 <note xml:id="g5w47oo" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="v1xbzubo" n="2">
+                           <layer xml:id="h1d8n7i7" n="5">
+                              <note xml:id="i1ukvn6k" dots="1" dur.ppq="12" dur="2" oct="2" pname="a" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="j1bcmez" n="25">
+                        <staff xml:id="s1p6flqe" n="1">
+                           <layer xml:id="ut3gv3q" n="1">
+                              <chord xml:id="wjcgf63" dur.ppq="4" dur="4" stem.dir="up">
+                                 <note xml:id="vjte9n2" oct="4" pname="e" />
+                                 <note xml:id="xh3n3zp" oct="4" pname="f" />
+                              </chord>
+                              <note xml:id="y1icvmsj" dots="1" dur.ppq="6" dur="4" oct="5" pname="d" stem.dir="down" />
+                              <note xml:id="z1nqzf27" dur.ppq="2" dur="8" oct="5" pname="c" stem.dir="down" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="takksal" n="2">
+                           <layer xml:id="a11zivci" n="5">
+                              <note xml:id="br0xqvi" dur.ppq="8" dur="2" oct="3" pname="d" stem.dir="down" />
+                              <note xml:id="c1aa9ca6" dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="d136vgpl" n="26">
+                        <staff xml:id="m167xxsa" n="1">
+                           <layer xml:id="o1hq98c6" n="1">
+                              <beam xml:id="p1hhgc4p">
+                                 <note xml:id="qyop6sv" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="r1wwe9dz" accid.ges="f" />
+                                 </note>
+                                 <note xml:id="swb6m2b" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="t1fiqy18">
+                                 <note xml:id="u195z4y" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="down">
+                                    <accid xml:id="v1o4divs" accid.ges="f" />
+                                 </note>
+                                 <note xml:id="wa00tnf" dur.ppq="2" dur="8" oct="5" pname="d" stem.dir="down" />
+                              </beam>
+                              <beam xml:id="x1hqi17s">
+                                 <note xml:id="y1rrz22n" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="z1imm6pd" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="asixnso" accid.ges="f" />
+                                 </note>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="nmokrqi" n="2">
+                           <layer xml:id="b72gdgt" n="5">
+                              <note xml:id="ch2p02v" dots="1" dur.ppq="12" dur="2" oct="2" pname="g" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <sb xml:id="oi3ez51" />
+                     <measure xml:id="dxkl1b1" n="27">
+                        <staff xml:id="m4fp7b3" n="1">
+                           <layer xml:id="p129zwkl" n="1">
+                              <beam xml:id="q1ve2qxc">
+                                 <note xml:id="roo2afa" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="s1jfhb3d" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up">
+                                    <accid xml:id="t32c322" accid="s" />
+                                 </note>
+                              </beam>
+                              <beam xml:id="uo1b2pi">
+                                 <note xml:id="vuepj9" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="w1qfseqh" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="x11ax74r" accid.ges="f" />
+                                 </note>
+                              </beam>
+                              <beam xml:id="yth5qfl">
+                                 <note xml:id="z1qetpu8" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                                 <note xml:id="azt3ppp" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="n7vxeop" n="2">
+                           <layer xml:id="b4kfd8k" n="5">
+                              <note xml:id="cclibtf" dots="1" dur.ppq="12" dur="2" oct="2" pname="e" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="dfhd497" n="28">
+                        <staff xml:id="m7q0i9u" n="1">
+                           <layer xml:id="o5te8y1" n="1">
+                              <note xml:id="paqp5xr" dur.ppq="4" dur="4" oct="4" pname="c" stem.dir="up">
+                                 <accid xml:id="q15hd54g" accid="s" />
+                              </note>
+                              <beam xml:id="r1ypqcm4">
+                                 <note xml:id="se3qa6r" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="t1bgdnku" accid.ges="f" />
+                                 </note>
+                                 <note xml:id="u1upg7r0" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="vozv90j">
+                                 <note xml:id="w13lxyj7" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="x1hjf78f" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="y1ojn0nh" accid.ges="f" />
+                                 </note>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="n14infaf" n="2">
+                           <layer xml:id="z1eionv3" n="5">
+                              <chord xml:id="bb2i1p3" dots="1" dur.ppq="12" dur="2" stem.dir="up">
+                                 <note xml:id="a1tpj0jv" oct="2" pname="e" />
+                                 <note xml:id="cxpzvr5" oct="3" pname="g" />
+                              </chord>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="d17q6kh2" n="29">
+                        <staff xml:id="mqi56xm" n="1">
+                           <layer xml:id="oph6k2c" n="1">
+                              <beam xml:id="pmv9rsw">
+                                 <note xml:id="qlfvkai" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="rf2rvuq" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="sqdxj76">
+                                 <note xml:id="te0759a" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                                 <note xml:id="u3tsa21" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="veth70i">
+                                 <note xml:id="wyxahxe" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" />
+                                 <note xml:id="xc5uc3d" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up">
+                                    <accid xml:id="ych3tnx" accid="s" />
+                                 </note>
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="n1s5lsld" n="2">
+                           <layer xml:id="zgl3lpm" n="5">
+                              <note xml:id="a147sugb" dur.ppq="4" dur="4" oct="2" pname="f" stem.dir="up" />
+                              <note xml:id="bctkvr0" dur.ppq="4" dur="4" oct="2" pname="g" stem.dir="up" />
+                              <note xml:id="c13miqll" dur.ppq="4" dur="4" oct="2" pname="a" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="d1nftqgy" n="30">
+                        <staff xml:id="m1wimzbu" n="1">
+                           <layer xml:id="of5yvlx" n="1">
+                              <chord xml:id="rcj5wpx" dots="1" dur.ppq="12" dur="2" stem.dir="up">
+                                 <note xml:id="p1t54c3d" oct="4" pname="c">
+                                    <accid xml:id="qwwyiy9" accid="s" />
+                                 </note>
+                                 <note xml:id="s1is0swn" oct="4" pname="d" />
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="nm5s0z8" n="2">
+                           <layer xml:id="t1jhlh9l" n="5">
+                              <note xml:id="uxhluds" dur.ppq="4" dur="4" oct="2" pname="d" stem.dir="up" />
+                              <beam xml:id="vi1wa9j">
+                                 <note xml:id="whyip7d" dur.ppq="2" dur="8" oct="3" pname="a" stem.dir="down" />
+                                 <note xml:id="xwhuuo6" dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="down" />
+                              </beam>
+                              <beam xml:id="yfyc3u8">
+                                 <note xml:id="zesf545" dur.ppq="2" dur="8" oct="3" pname="f" stem.dir="down" />
+                                 <note xml:id="aaw8tm2" dur.ppq="2" dur="8" oct="3" pname="e" stem.dir="down" />
+                              </beam>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="bx8s206" n="31">
+                        <staff xml:id="k9wuwsp" n="1">
+                           <layer xml:id="m5ei456" n="1">
+                              <chord xml:id="o1wz0bs9" dots="1" dur.ppq="12" dur="2" stem.dir="up">
+                                 <note xml:id="n1edvmzx" oct="3" pname="a" />
+                                 <note xml:id="p1miye88" oct="4" pname="d" />
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="l9gkti" n="2">
+                           <layer xml:id="q10tagbw" n="5">
+                              <note xml:id="r1a6wj8p" dur.ppq="4" dur="4" oct="3" pname="d" stem.dir="down" />
+                              <beam xml:id="sl8i5it">
+                                 <note xml:id="tdj3vyd" dur.ppq="2" dur="8" oct="3" pname="f" stem.dir="down" />
+                                 <note xml:id="u16n7rtc" dur.ppq="2" dur="8" oct="3" pname="e" stem.dir="down" />
+                              </beam>
+                              <beam xml:id="vir2zdy">
+                                 <note xml:id="w11xxruz" dur.ppq="2" dur="8" oct="3" pname="d" stem.dir="up" />
+                                 <note xml:id="x1t59n7t" dur.ppq="2" dur="8" oct="3" pname="c" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="ynbjetc" n="32">
+                        <staff xml:id="hnbtm26" n="1">
+                           <layer xml:id="jh0w5d0" n="1">
+                              <chord xml:id="l1kbvjgk" dur.ppq="4" dur="4" stem.dir="up">
+                                 <note xml:id="k3y5vwo" oct="4" pname="d" />
+                                 <note xml:id="mq4mr3d" oct="4" pname="g" />
+                              </chord>
+                              <beam xml:id="nq8nn5f">
+                                 <note xml:id="o1oeimz8" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="p1oxdsfc" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="qt6ye5z">
+                                 <note xml:id="r1e3h0hp" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                                 <note xml:id="sdu0nq5" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="i1smm7xi" n="2">
+                           <layer xml:id="t195hrmq" n="5">
+                              <note xml:id="u1v2gt21" dots="1" dur.ppq="12" dur="2" oct="2" pname="b" stem.dir="up">
+                                 <accid xml:id="vwyeu4c" accid="n" />
+                              </note>
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="wbrm28l" n="33">
+                        <staff xml:id="ftnr0n9" n="1">
+                           <layer xml:id="hjk4g8z" n="1">
+                              <chord xml:id="j6690u3" dur.ppq="8" dur="2" stem.dir="up">
+                                 <note xml:id="i1i0tx5n" oct="4" pname="c" />
+                                 <note xml:id="k8xu5rz" oct="4" pname="e" />
+                              </chord>
+                              <chord xml:id="mgaho2g" dur.ppq="4" dur="4" stem.dir="up">
+                                 <note xml:id="l11990t2" oct="4" pname="c" />
+                                 <note xml:id="n9ay741" oct="4" pname="e" />
+                                 <note xml:id="obaw8yi" oct="4" pname="f" />
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="gxvdo6k" n="2">
+                           <layer xml:id="ptkovy5" n="5">
+                              <note xml:id="qne7lyf" dur.ppq="8" dur="2" oct="2" pname="b" stem.dir="up">
+                                 <accid xml:id="r11rrbr9" accid.ges="f" />
+                              </note>
+                              <note xml:id="s19zlfjt" dur.ppq="4" dur="4" oct="2" pname="a" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="t6wi2lh" n="34">
+                        <staff xml:id="clxou9j" n="1">
+                           <layer xml:id="ecsrsce" n="1">
+                              <beam xml:id="f1htrzwm">
+                                 <note xml:id="gabxtgl" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="h13rq2hq" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="i1aqq6x6">
+                                 <note xml:id="j1ntzqrj" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="kypoghb" accid.ges="f" />
+                                 </note>
+                                 <note xml:id="l14iyglf" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="m1wuqc2">
+                                 <note xml:id="n19i55ud" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="o14ohett" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="dr24wj1" n="2">
+                           <layer xml:id="podzcip" n="5">
+                              <note xml:id="qmpl8xu" dur.ppq="8" dur="2" oct="2" pname="e" stem.dir="up" />
+                              <note xml:id="r1rgu6nd" dur.ppq="4" dur="4" oct="2" pname="f" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="s88358v" n="35">
+                        <staff xml:id="bpowk4" n="1">
+                           <layer xml:id="d11r2dx3" n="1">
+                              <beam xml:id="ekkdmdt">
+                                 <note xml:id="fsenj47" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="g1g64jxb" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="h11nficw">
+                                 <note xml:id="i1tw6ma1" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="j270xym" dur.ppq="1" dur="16" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="kdvolh9" dur.ppq="1" dur="16" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="l1osnm95" accid.ges="f" />
+                                 </note>
+                              </beam>
+                              <note xml:id="m10fxzoq" dur.ppq="4" dur="4" oct="4" pname="a" stem.dir="up" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="ccp8egi" n="2">
+                           <layer xml:id="n1o8krjp" n="5">
+                              <note xml:id="o1gy18z5" dur.ppq="8" dur="2" oct="2" pname="e" stem.dir="up" />
+                              <note xml:id="p1r6tayr" dur.ppq="4" dur="4" oct="2" pname="f" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <sb xml:id="b1m4aus4" />
+                     <measure xml:id="qqx4ihh" n="36">
+                        <staff xml:id="zdgmu6d" n="1">
+                           <layer xml:id="czorj1s" n="1">
+                              <beam xml:id="d1jflezt">
+                                 <note xml:id="ee5glji" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                                 <note xml:id="f1f9t8dz" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="g19w9y1s">
+                                 <note xml:id="hoam8zx" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="up">
+                                    <accid xml:id="ipban4e" accid.ges="f" />
+                                 </note>
+                                 <note xml:id="j1e8ctlt" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="k14bbzcg">
+                                 <note xml:id="lv3rhqm" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="m1tmt4a2" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="azvxmrc" n="2">
+                           <layer xml:id="n16wfejs" n="5">
+                              <note xml:id="o7h2mcy" dur.ppq="8" dur="2" oct="2" pname="e" stem.dir="up" />
+                              <note xml:id="p216eex" dur.ppq="4" dur="4" oct="2" pname="f" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="q1ujjcku" n="37">
+                        <staff xml:id="zm7jlo2" n="1">
+                           <layer xml:id="badrmhp" n="1">
+                              <beam xml:id="c12banmh">
+                                 <note xml:id="d9orxzs" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                                 <note xml:id="eevktbe" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="fp8mhrf">
+                                 <note xml:id="g1br46k" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                                 <note xml:id="h18nsti4" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="ieyod8g">
+                                 <note xml:id="j1v6fmpu" dur.ppq="2" dur="8" oct="4" pname="d" stem.dir="up" />
+                                 <note xml:id="kp138qm" dur.ppq="2" dur="8" oct="4" pname="c" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="a10msvo9" n="2">
+                           <layer xml:id="l1ky2iia" n="5">
+                              <note xml:id="m1ithh8p" dots="1" dur.ppq="12" dur="2" oct="2" pname="c" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="nlebkob" n="38">
+                        <staff xml:id="w45w9q0" n="1">
+                           <layer xml:id="y1nalhnw" n="1">
+                              <note xml:id="z1oyckwv" dur.ppq="4" dur="4" oct="4" pname="b" stem.dir="down">
+                                 <accid xml:id="a18fuxir" accid.ges="f" />
+                              </note>
+                              <note xml:id="b4ncfal" dots="1" dur.ppq="6" dur="4" oct="4" pname="d" stem.dir="up" />
+                              <note xml:id="c1q85ott" dur.ppq="2" dur="8" oct="4" pname="b" stem.dir="down">
+                                 <accid xml:id="dljzdug" accid.ges="f" />
+                              </note>
+                           </layer>
+                        </staff>
+                        <staff xml:id="x1ei907z" n="2">
+                           <layer xml:id="e1qvmdda" n="5">
+                              <mRest xml:id="fv6xi8u" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="glhbqbd" n="39">
+                        <staff xml:id="pikv8l1" n="1">
+                           <layer xml:id="r2ob6jb" n="1">
+                              <note xml:id="s98umhx" dur.ppq="4" dur="4" oct="4" pname="a" stem.dir="up" />
+                              <note xml:id="t1nh9aq7" dots="1" dur.ppq="6" dur="4" oct="4" pname="c" stem.dir="up" />
+                              <note xml:id="u1ymmi2q" dur.ppq="2" dur="8" oct="4" pname="a" stem.dir="up" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="qe8sxjm" n="2">
+                           <layer xml:id="v1yr32mk" n="5">
+                              <mRest xml:id="w13f1mlr" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="x131huqx" n="40">
+                        <staff xml:id="ggy29wu" n="1">
+                           <layer xml:id="i1u0168u" n="1">
+                              <note xml:id="j1xtug7c" dur.ppq="4" dur="4" oct="4" pname="g" stem.dir="up" />
+                              <note xml:id="kp0v3qk" dots="1" dur.ppq="6" dur="4" oct="3" pname="b" stem.dir="up">
+                                 <accid xml:id="l3aovj4" accid.ges="f" />
+                              </note>
+                              <note xml:id="mpz8fuo" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                           </layer>
+                        </staff>
+                        <staff xml:id="hkj7arq" n="2">
+                           <layer xml:id="n2i77ll" n="5">
+                              <mRest xml:id="o1jwlzw9" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="pt3kt83" n="41">
+                        <staff xml:id="yja54t9" n="1">
+                           <layer xml:id="a18z0gdr" n="1">
+                              <beam xml:id="b1aqa8ys">
+                                 <note xml:id="c1dfin8v" dur.ppq="2" dur="8" oct="4" pname="f" stem.dir="up" />
+                                 <note xml:id="d1j1kzfl" dur.ppq="2" dur="8" oct="3" pname="a" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="ed3kut0">
+                                 <note xml:id="fjp21ct" dur.ppq="2" dur="8" oct="3" pname="b" stem.dir="up">
+                                    <accid xml:id="gyyaa2m" accid.ges="f" />
+                                 </note>
+                                 <note xml:id="h1yb5f3c" dur.ppq="2" dur="8" oct="4" pname="g" stem.dir="up" />
+                              </beam>
+                              <beam xml:id="ilfjx6n">
+                                 <note xml:id="j1s1r7gl" dur.ppq="2" dur="8" oct="3" pname="g" stem.dir="up" />
+                                 <note xml:id="k18dwt4f" dur.ppq="2" dur="8" oct="4" pname="e" stem.dir="up" />
+                              </beam>
+                           </layer>
+                        </staff>
+                        <staff xml:id="z5fcxyr" n="2">
+                           <layer xml:id="l1ej8de1" n="5">
+                              <mRest xml:id="m1rbvgin" />
+                           </layer>
+                        </staff>
+                     </measure>
+                     <measure xml:id="nop512h" right="rptend" n="42">
+                        <staff xml:id="woa2ro9" n="1">
+                           <layer xml:id="y97yxv" n="1">
+                              <chord xml:id="a1n8feqa" dots="1" dur.ppq="12" dur="2" stem.dir="up">
+                                 <note xml:id="z1ntk89j" oct="3" pname="a" />
+                                 <note xml:id="b5av5r4" oct="4" pname="f" />
+                              </chord>
+                           </layer>
+                        </staff>
+                        <staff xml:id="x1b1yf92" n="2">
+                           <layer xml:id="c1mszsl3" n="5">
+                              <note xml:id="daz1wvw" dur.ppq="8" dur="2" oct="3" pname="f" stem.dir="down" />
+                              <note xml:id="e1asce1s" dur.ppq="4" dur="4" oct="2" pname="f" stem.dir="up" />
+                           </layer>
+                        </staff>
+                     </measure>
+                  </section>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
